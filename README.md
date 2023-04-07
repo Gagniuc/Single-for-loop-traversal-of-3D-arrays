@@ -4,7 +4,7 @@ It demonstrates the use of a single for-loop for three-dimensional arrays, with 
 
 ```javascript
 
-var A = [
+let A = [
         [
    ["a", 55, 146],
    ["b", 34, 124],
@@ -58,7 +58,7 @@ for (let v = 0; v < q; v++){
    if(v!=0 && j == 0){i++;}
    if(v!=0 && k == 0){i = 0; d++;}
    
-   t += v + " A["+d+"]["+i+"]["+j+"]=";
+   t += v + " A[" + d + "][" + i + "][" + j + "]=";
    t += A[d][i][j] + "\n";
 }
 
