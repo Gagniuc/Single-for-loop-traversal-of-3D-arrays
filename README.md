@@ -73,5 +73,5 @@ This JavaScript example is written for the Rhino JavaScript engine. To use this 
 
 # References
 
-- Paul A. Gagniuc. An Introduction to Programming Languages: Simultaneous Learning in Multiple Coding Environments. Synthesis Lectures on Computer Science. Springer International Publishing, 2023, pp. 1-280.
+- Paul A. Gagniuc. <i>An Introduction to Programming Languages: Simultaneous Learning in Multiple Coding Environments</i>. Synthesis Lectures on Computer Science. Springer International Publishing, 2023, pp. 1-280.
 
