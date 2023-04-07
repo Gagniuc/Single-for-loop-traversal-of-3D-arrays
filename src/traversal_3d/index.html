@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script type="text/javascript" src="traversal_3d.js"></script>
+</head>
+
+<body>
+
+	<h1>Single "for-loop" traversal of 3D arrays <br>(as a function in traversal_3d.js)</h1>
+
+	<p id="demo"></p>
+
+	<script>
+
+		let A = [
+				[
+		   ["a", 55, 146],
+		   ["b", 34, 124],
+		   ["c", 96, 564],
+		   [100, 12, "d"],
+				],
+				[
+		   ["e", 88, 146],
+		   ["f", 34, 124],
+		   ["g", 96, 564],
+		   [100, 12, "h"],
+				],
+				[
+		   ["i", 88, 146],
+		   ["j", 34, 124],
+		   ["k", 96, 564],
+		   [100, 12, "k"],
+				],
+				[
+		   ["m", 88, 146],
+		   ["n", 34, 124],
+		   ["o", 96, 564],
+		   [100, 12, "p"],
+				],
+				[
+		   ["q", 88, 146],
+		   ["r", 34, 124],
+		   ["s", 96, 564],
+		   [100, 12, "t"],
+				]
+				];
+
+		document.getElementById("demo").innerHTML = traversal_3d(A);
+
+	</script>
+
+
+</body>
+</html>
